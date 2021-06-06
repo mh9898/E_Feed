@@ -11,6 +11,7 @@
 		71A8EF46266D35280071719B /* E_FeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A8EF45266D35280071719B /* E_FeedTests.swift */; };
 		71A8EF48266D35280071719B /* E_Feed.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A8EF3A266D35280071719B /* E_Feed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71A8EF54266D35500071719B /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A8EF53266D35500071719B /* FeedItem.swift */; };
+		71A8EF58266D37A20071719B /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A8EF57266D37A20071719B /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		71A8EF45266D35280071719B /* E_FeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_FeedTests.swift; sourceTree = "<group>"; };
 		71A8EF47266D35280071719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71A8EF53266D35500071719B /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		71A8EF57266D37A20071719B /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		71A8EF2D266D35280071719B = {
 			isa = PBXGroup;
 			children = (
+				71A8EF57266D37A20071719B /* FeedLoader.swift */,
 				71A8EF53266D35500071719B /* FeedItem.swift */,
 				71A8EF39266D35280071719B /* E_Feed */,
 				71A8EF44266D35280071719B /* E_FeedTests */,
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A8EF58266D37A20071719B /* FeedLoader.swift in Sources */,
 				71A8EF54266D35500071719B /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
